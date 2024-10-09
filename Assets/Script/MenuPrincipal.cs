@@ -7,7 +7,7 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("Nivel1"); 
+        SceneManager.LoadScene("LevelSelector"); 
     }
 
     public void Salir()

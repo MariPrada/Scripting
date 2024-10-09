@@ -546,6 +546,41 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1c5ba6485ee174aa92c2e34f72f176, type: 3}
+--- !u!1 &270028091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883,
+    type: 3}
+  m_PrefabInstance: {fileID: 1697003742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &270028096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270028091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf05f7dd8e4220748a9c4f4f6a2bc9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scenes:
+  - SceneName: Level1
+    LevelComplete: 0
+    LevelUnlocked: 0
+    MaxStars: 0
+    CollectedStars: 
+  - SceneName: Level2
+    LevelComplete: 0
+    LevelUnlocked: 0
+    MaxStars: 0
+    CollectedStars: 
+  - SceneName: Level3
+    LevelComplete: 0
+    LevelUnlocked: 0
+    MaxStars: 0
+    CollectedStars: 
+  CreateSaveGameBtn: 0
 --- !u!1001 &332638703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1941,7 +1976,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 270028096}
   m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
 --- !u!1001 &1735212553
 PrefabInstance:
@@ -2422,6 +2461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MinimalCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040196612289779003, guid: 67e9e6648638ca94eaaa9e41373f42f2,
+        type: 3}
+      propertyPath: m_Lens.GateFit
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8940356102819974359, guid: 67e9e6648638ca94eaaa9e41373f42f2,
         type: 3}

@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Proyecto/Escenas/Main.unity
+    path: Assets/_Proyecto/Escenas/Main.unity
     guid: 01c3cb5d9b70e2842b1d621be1f0af05
   - enabled: 1
-    path: Assets/Proyecto/Escenas/Nivel1.unity
+    path: Assets/_Proyecto/Escenas/LevelSelector.unity
+    guid: f564a2769aa6b4b4484852eb9b974bd5
+  - enabled: 1
+    path: Assets/_Proyecto/Escenas/LoadingScreen.unity
+    guid: 8aaa2a792170b88469c13b326bd30211
+  - enabled: 1
+    path: Assets/_Proyecto/Escenas/Nivel1.unity
     guid: a171ee3a56f1e824aa99235b7b99ba21
   - enabled: 1
-    path: Assets/Proyecto/Escenas/Nivel2.unity
-    guid: ef7533b4f7d0bd742be21d92f4322d6a
+    path: Assets/_Proyecto/Escenas/Nivel2.unity
+    guid: 5599eac7f72b5274f88aae1e18c1bdbf
+  - enabled: 1
+    path: Assets/_Proyecto/Escenas/Nivel3.unity
+    guid: 4c75be90091501047bbb18a9d2cc5d28
   m_configObjects: {}
