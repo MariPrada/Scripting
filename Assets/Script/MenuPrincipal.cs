@@ -25,5 +25,9 @@ public class MenuPrincipal : MonoBehaviour
     {
 
     }
+    public void Achievements()
+    {
+        SceneManager.LoadScene("Logros");
+    }
 
 }
