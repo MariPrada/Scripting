@@ -152,7 +152,7 @@ Transform:
   m_GameObject: {fileID: 30464989}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7318,22 +7318,22 @@ PrefabInstance:
     - target: {fileID: 2837795514112207218, guid: 271785ad4a3328642b6c2354e1e9f696,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.x
-      value: 8.511304
+      value: 0.7070532
       objectReference: {fileID: 0}
     - target: {fileID: 2837795514112207218, guid: 271785ad4a3328642b6c2354e1e9f696,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.y
-      value: 3.7990541
+      value: -0.049617767
       objectReference: {fileID: 0}
     - target: {fileID: 2837795514112207218, guid: 271785ad4a3328642b6c2354e1e9f696,
         type: 3}
       propertyPath: PathElements.Array.data[2].PathElementPosition.x
-      value: 15.848781
+      value: 15.528058
       objectReference: {fileID: 0}
     - target: {fileID: 2837795514112207218, guid: 271785ad4a3328642b6c2354e1e9f696,
         type: 3}
       propertyPath: PathElements.Array.data[2].PathElementPosition.y
-      value: -0.39353943
+      value: 0.24790478
       objectReference: {fileID: 0}
     - target: {fileID: 2837795514112207219, guid: 271785ad4a3328642b6c2354e1e9f696,
         type: 3}
@@ -7409,11 +7409,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4515327423875770, guid: 75870121bc7479340aec1d2c79f22cde, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -84.69
+      value: -80.2
       objectReference: {fileID: 0}
     - target: {fileID: 4515327423875770, guid: 75870121bc7479340aec1d2c79f22cde, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.32
+      value: -9.6
       objectReference: {fileID: 0}
     - target: {fileID: 4515327423875770, guid: 75870121bc7479340aec1d2c79f22cde, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10208,11 +10208,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836997907918112, guid: 5b5c95ee342ec9044abeecd353d082a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.65
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 4836997907918112, guid: 5b5c95ee342ec9044abeecd353d082a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.35
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4836997907918112, guid: 5b5c95ee342ec9044abeecd353d082a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10319,12 +10319,12 @@ PrefabInstance:
     - target: {fileID: 2746492010353037699, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.51
+      value: -28.8
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037699, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.95
+      value: 9.1
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037699, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
@@ -10368,13 +10368,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
+      propertyPath: PathElements.Array.data[0].PathElementPosition.x
+      value: 0.74835205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
+        type: 3}
+      propertyPath: PathElements.Array.data[0].PathElementPosition.y
+      value: 0.6414504
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
+        type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.x
-      value: 10.831999
+      value: 11.259628
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.y
-      value: 11.182332
+      value: 9.899439
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037712, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
